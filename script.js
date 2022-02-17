@@ -1,8 +1,8 @@
 function nolasa (m1, m2, m3){
     const malas = document.getElementsByClassName("mala");
-     m1 = parseFLoat(mala1.value);
-     m2 = parseFLoat(mala2.value);
-     m3 = parseFLoat(mala3.value);
+     m1 = parseFloat(mala1.value);
+     m2 = parseFloat(mala2.value);
+     m3 = parseFloat(mala3.value);
     
 
     if (m1 > 0 && m2 > 0 && m3 > 0){
